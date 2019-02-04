@@ -3,9 +3,7 @@
  * purpose: styles, animation etc
  * further development: meyer reset perhaps?
  **/
-body{
-  background-color: #FFC7D4;
-  text-align: center;
-  font-family: 'arial';
-  color: #FF1E00;
+img{
+  width: 45px;
+  height: auto; 
 }

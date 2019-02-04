@@ -17,10 +17,10 @@ function addTheClass() {
   element.classList.add("chChanges"); // add the .chChanges class from the css
 }
 
-// addTheClass(); // fire off the function
+addTheClass(); // fire off the function
 
 // EVENTS: click
-/*
+
 element.addEventListener('click', function () {
   console.log('I detected a click (line: 18)');
   alert('click');
@@ -28,4 +28,3 @@ element.addEventListener('click', function () {
   // or remove a class
   // or try to fire off the addTheClass() function here!
 });
-*/

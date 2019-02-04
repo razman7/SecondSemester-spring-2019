@@ -10,7 +10,7 @@ console.log('Stardate 235678.89: JavaScript from js/dates.js is up and running.'
 
 /** HOW TO ADD ANY HTML TO A TAG **/
 var myText = document.getElementById('content');
-myText.innerHTML += '<h2>The Exorbitant Shop</h2>';
+myText.innerHTML += '<h2>The cCool sStore</h2>';
 // What is the difference between += and + ?
 // Try this: add an image
 
@@ -25,13 +25,13 @@ console.log('The hour is: ' + hour);
 
 // translate this to your language (unfortunately this is the Klingon 7-day week)
 let week = [
-  'Kract',
-  'Ooomp',
-  'Zroof',
-  'Kween',
-  'Aargh',
-  'Rizzz',
-  'Boomm'
+  'vasarnap',
+  'hetfo',
+  'kedd',
+  'szerda',
+  'csutortok',
+  'pentek',
+  'szombat'
 ]; // note: the strings in the list are separated by commas.
 
 // what is the result of this in the console, and why?
@@ -44,9 +44,10 @@ console.log(week[day]);
 */
 
 var x = 1;
+x = hour;
 
-if (x == 1){
-  var open = 'Open now - today till 16.00';
+if (x >= 9, x <= 16){
+  var open = 'Open! - Today until 4pm';
   console.log(open);
 
 }
@@ -55,5 +56,7 @@ else {
   console.log(open);
 }
 
+var meme = document.getElementById('hours');
+meme.innerHTML = open;
 /** LOOP **/
 // loop out the names of the days of the week

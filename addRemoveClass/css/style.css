@@ -7,19 +7,22 @@
 
 @keyframes colorsTransform {
   from {
-    background-color: red;
+    background-color: green;
   }
 
   to {
-    background-color: yellow;
+    background-color: pink;
   }
+}
+
+body{
+  text-align: center;
 }
 
 .chChanges {
   width: 100px;
   height: 100px;
-  border: 1px solid red;
-  background-color: red;
+  background-color: green;
   animation-name: colorsTransform;
   animation-duration: 4s;
 }
